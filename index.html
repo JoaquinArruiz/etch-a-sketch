@@ -1,12 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html>
+  <head>
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css2?family=Press+Start+2P' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Etch-a-Sketch</h1>
+    <section class = "controls">
+
+      <div class="color-options">
+        <button id="black-button" class="color-button">✏️</button>
+        <button id="white-button" class="color-button">🧼</button>
+        <button id="clear-button">🗑️</button>
+      </div>
+      <label for="grid-size">Grid size:</label>
+      <input type="range" min="2" max="32" value="16" class="slider grid-size-input" id="grid-size">
+      <span class="grid-size-value">16</span>
+    </section>
+   
+
+    <div class="grid-container centered">
+
+    </div>
+
+    <footer class = 'credits'><a href="https://www.theodinproject.com/lessons/foundations-rock-paper-scissors">'Project: Rock Paper Scissors'</a><span> - </span><a href="https://github.com/JoaquinArruiz/rock-paper-scissors">Joaquin Arruiz's github</a></footer>
+    <script src="logic.js" defer></script>
+  </body>
 </html>
