@@ -14,4 +14,4 @@ Cool project. Learned how to use/make grids in different ways during the process
 
 #### Known Issues:   
 - Sometimes you can drag the grid
-- Add responsive design (you have to draw 1 cell by 1 in mobile devices)
+- Add responsive design (you have to draw 1 cell at the time in mobile devices)
