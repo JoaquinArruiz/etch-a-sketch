@@ -2,7 +2,7 @@
 
 Simple drawing website.
 
-You can try the live test at: [Etch-a-Sketch Live Page](https://joaquinarruiz.github.io/Etch-a-Sketch/)
+You can try the live test at: [Etch-a-Sketch Live Page](https://joaquinarruiz.github.io/etch-a-sketch/)
 
 -----
 #### Process and Some Thoughts:
